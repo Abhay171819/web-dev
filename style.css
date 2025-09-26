@@ -1,9 +1,63 @@
-p{
+/* p{
     background-color: aqua;
-}
+} */
 *{
     font-variant: small-caps;
 }
 .One{
     color: yellow;
+}
+#two{
+    background-color: deepskyblue;
+}
+h2,h3{
+    color: deeppink;
+    background-color: darksalmon;
+}
+a[target="_blank"]{
+    color: green;
+}
+#amd{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium';
+    font-variant: small-caps;
+    background-color: bisque;
+    color: blue;
+}
+/* p{
+    font-size: larger;
+} */
+/* p{
+    font-family: 'Courier New', Courier, monospace;
+} */
+h4{
+    background-color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+p{
+    font-style: italic;
+}
+h6{
+    font-style: unset;
+}
+p{
+    font-weight: 800;
+}
+.container{
+    height: 400px;
+    width: auto;
+    background-color: chartreuse;
+    justify-content: center;
+    align-content: center;
+}
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: darkcyan;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 400px;
+    text-align: center;
+
 }
