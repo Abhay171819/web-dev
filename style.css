@@ -45,19 +45,20 @@ p{
     font-weight: 800;
 }
 .container{
-    height: 400px;
-    width: auto;
-    background-color: chartreuse;
-    justify-content: center;
-    align-content: center;
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
 }
 .box{
-    height: 100px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-color: darkcyan;
     align-items: center;
     justify-content: center;
     margin: 10px 400px;
     text-align: center;
 
+} 
+.abh{
+    background-image: url("Earth.jpg");
 }

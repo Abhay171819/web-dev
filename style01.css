@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    height: 200px;
+    width: 1200px;
+
+}
+.box1{
+    background-color: yellow; 
+    width: 200px;
+    height: 20px;
+    margin: 100px 300px;
+}
+.box2{ 
+    background-color: aqua;
+    width: 200px;
+    height: 20px;
+    margin: 100px 400px;
+}
