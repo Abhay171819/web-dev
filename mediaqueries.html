@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Style>
+            body{
+                margin:0;
+                font-family: Arial, sans-serif;
+            }
+            .container{
+                display: flex;
+                gap: 20px;
+                padding: 20px;
+
+            }
+            .box{
+                flex: 1;
+                padding: 20px;
+                background-color: antiquewhite;
+                text-align: center;
+            }
+            /*Tablet*/
+            @media(max-width: 768px){
+                .container{
+                    flex-direction: column;
+                }
+                .box{
+                    background-color: yellow;
+                }
+            }
+            /*Mobile*/
+            @media(max-width: 480px){
+                .box{
+                    font-size: 14px;
+                    background: aqua;
+                }
+            }
+        </Style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">box1</div>
+            <div class="box">box2</div>
+            <div class="box">box3</div>
+        </div>
+    </body>
+</html>

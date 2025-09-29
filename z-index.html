@@ -1,19 +1,16 @@
-.container{
-    display: flex;
-    flex-direction: row;
-    background-color: brown;
-    height: 200px;
-    width: 1200px;
-
-}
-.box1{
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box1
+{
+    position: absolute;
     top: 50px;
     left: 50px;
     background-color: yellow; 
     width: 1500px;
     height: 150px;
-    position: absolute;
-    z-index: 2;
+    z-index: 1;
 
 }
 .box2{ 
@@ -25,3 +22,11 @@
     position: absolute;
     z-index: 2;
 }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    
+</body>
+</html>
