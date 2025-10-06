@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous Function Example</title>
+</head>
+<body>
+    <h1>Anonymous Function Example</h1>
+
+    <button id="btn">Click Me</button>
+
+    <p id="output"></p>
+
+    <script>
+        //Using anonymous function directly in event listener
+        document.getElementById("btn").addEventListener("click", function(){
+            document.getElementById("output").textContent = "Hello tou click the button (anonymous function).";
+      })
+    </script>
+</body>
+</html>

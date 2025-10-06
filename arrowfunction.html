@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow function Example</title>
+</head>
+<body>
+    <h1>Arrow Function Example</h1>
+
+    <button id="btn">Click Me</button>
+
+    <p id="output"></p>
+
+    <script>
+        //Arrow function assigned to variable
+        const showMessage = () =>{
+            document.getElementById("output").textContent="Hello you click the button (Arrow function).";
+        };
+
+        //Attach arrow function to click 
+        document.getElementById("btn").addEventListener("click",showmessage);
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Templete Literals Example</h1>
+    <button id="btn">Show Message</button>
+
+    <p id="output"></p>
+
+    <script>
+        document.getElementById("btn").addEventListener("click",()=>{
+            let name = "Prachi";
+            let age = 29;
+
+            //Using templete literals with backticks
+            let message = `Hello, my name is ${name} and I am ${age} years old`;
+
+            //multi-line string with templete literals
+            let intro = `This is lone one
+This is line two.
+And this is line three`;
+
+            document.getElementById("output").innerHTML = message +"<br><br>"+ intro;
+        })
+    </script>
+</body>
+</html>

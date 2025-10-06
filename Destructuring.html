@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Destructuring Example</title>
+</head>
+<body>
+    <h1>Array Destructuring</h1>
+    <p id="output1"></p>
+
+    <script>
+        const colors = ["red","Green","Blue"];
+
+        //Array destructuring
+        const [first,second,third]=colors;
+
+        document.getElementById("output1").textContent=
+        `First:${first}, Second:${second}, Third:${third}`;
+    </script>
+</body>
+</html>
